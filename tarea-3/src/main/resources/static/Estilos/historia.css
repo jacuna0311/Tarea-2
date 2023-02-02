@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-image: url(/img/bandera.jpg);
+    color: red;
+}
+
+.nav-historia{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    padding: 15px;
+}
+
+.nav-historia a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.nav-historia a:hover{
+    background-color: black;
+    transition: 0.5s;
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #EEEEEE;
+}
+
+div h2{
+    width: 60rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+}
+
+.sub2{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.sub2 h3{
+    font-size: 1.6rem;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+}
+
+.texto span{
+    width: 68rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.texto2{
+    display: flex;
+    justify-content: center;
+}
+
+.texto2 span{
+    width: 68rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.contenedor-1img{
+    display: flex;
+    justify-content: center;
+}
+
+.img-1parrafo{
+    width: 35rem;
+    padding: 1rem;
+}

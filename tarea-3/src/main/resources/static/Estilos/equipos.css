@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-equipos{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav-equipos a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.nav-equipos a:hover{
+    background-color: black;
+    transition: 0.5s;
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+h1{
+    text-align: center;
+    background-image: url(/img/bandera.jpg);
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, th, td{
+    margin: 2rem 2rem 2rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1.3rem;
+    text-align: center;
+    background-color: #9D0505 ;
+    font-size: 30px;
+    color: white;
+
+}
+
+tr, th, td:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+body{
+    background-image: url(/img/Equipos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
